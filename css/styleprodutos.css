@@ -1,0 +1,99 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.containerr {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .containerr img {vertical-align: middle;}
+  .content1 p{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    padding-left: 40px;
+    color: #FFFFFF;
+    top:10px;
+    font-size: 30px;
+    font-weight: 400;
+
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: #DC9E00; /* Fallback color */
+    background: #c58d0083; /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    opacity: 0;
+    transition: .5s ease;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  
+  .containerr:hover .content {
+    opacity: 1;
+  }
+
+  .containerr .iconplus{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+  .containerr:hover .iconplus{
+      opacity: 0;
+      transition: .5s ease;
+  }
+
+   
+.hero-image2 {
+    background-image: url("../img/slideproduto.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -28px;
+  }
+
+  .hero-image3 {
+    background-image: url("../img/empresa2.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -28px;
+  }
+
+  
+  .hero-image4 {
+    background-image: url("../img/equipecarreira.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -28px;
+  }
+
+  .hero-no-image {
+      background-color: #DC9E00;
+    position: relative;
+    margin-top: -28px;
+  }
+
+
+  .cartaoslide{
+      
+    background-color: #aa7b0294;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
+  }

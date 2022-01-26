@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+
+    <!--Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--meu slide serviço-->
+
+    <link rel="stylesheet" href="css/slider/backgrounds.css">
+    <link rel="stylesheet" href="css/slider/controles.css">
+    <link rel="stylesheet" href="css/slider/global.css">
+    <link rel="stylesheet" href="css/slider/itens.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/stylenavbar.css" rel="stylesheet">
+
+    <!-- Custom styles for footer-->
+    <link href="css/footers.css" rel="stylesheet">
+
+    <!--link efeito scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <main>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark meunavbar" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/LOGO.png"></a>
+                <button class="navbar-toggler" style="border:none;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list" style="font-size: 2rem; color: #B77C0B;"></i>
+                </button>
+
+                <!--Inicio navbar menu-->
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
+
+                    <ul class="navbar-nav ml-auto px-5">
+                        <li class="nav-item menu-area">
+                            <a class="nav-link" aria-current="page" href="sobre.html" data-text="Sobre nós">Sobre
+                                nós</a>
+                        </li>
+                        <li class="nav-item menu-area">
+                            <a class="nav-link" href="servicos.html" data-text="Serviços">Serviços</a>
+                        </li>
+                        <li class="nav-item menu-area">
+                            <a class="nav-link" href="produtos.html" data-text="Produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item menu-area">
+                            <a class="nav-link" href="carreiras.html" data-text="Carreira">Carreiras</a>
+                        </li>
+                        <li class="nav-item menu-area">
+                            <a class="nav-link" href="contactos.html" data-text="Contactos">Contactos</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--Fim navbar menu-->
+            </div>
+        </nav>
+
+        <!--Hero Slide-->
+        <div class="hero-image">
+
+
+            <div class="container col-md-12 px-4  textoslide">
+                <div class="row">
+
+                    <div class="col-md-10 " style="padding-top: 80px;">
+                        <h1 class="display-5 lh-1 mb-3" style="text-transform: uppercase; font-weight: 300;">Responsive
+                            <span style="color: #F9B208;">left-aligned</span> hero with image
+                        </h1>
+                        <p class="lead subtextoslide">Quickly design and customize responsive mobile-first sites with
+                            Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables
+                            and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript
+                            plugins.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="#quemsomos"><button type="button"
+                                    class="btn btn-outline-secondary btn-lg px-4 btnslidearrow"
+                                    style="padding: 20px;"><i class="bi bi-arrow-down"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Fim Hero Slide-->
+
+        <!--Div Sobre Nós-->
+        <div class="divsobre">
+
+            <div class="row" style="width: 100%;">
+                <div class="col-lg-12 px-5">
+                    <h1 class="display-5 lh-1 mb-3 apresentacao" id="quemsomos"
+                        style="text-transform: uppercase; font-weight: 500; font-size: 40px; color: #131313;"
+                        data-aos="fade-right">QUEM SOMOS</h1>
+                </div>
+                <div class="col-md-6 px-5 p-4" data-aos="fade-right">
+                    <p class="lead textosobrenos">Somos empresa de direito Angolano, com reconhecimento de uma das mais
+                        prestigiadas empresas na sua área. Actuando numa lógica de parceria com os seus clientes, tem
+                        registado colaborações duradouras com empresas em sectores tão variados como a, distribuição,
+                        indústria, agricultura, logística, e Sectores interministerial.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="#"><button type="button" class="btn btn-primarybtn-lg px-4 btnprincipal"><span
+                                    class="lead">Sobre nós </span><i class="bi bi-arrow-right"></i></button></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 centrar" style="background-color: #131313; padding: 40px;" data-aos="fade-up">
+
+                    <div class="container" style="padding-bottom: 20px;">
+                        <span class="imgmvv"><img src="img/missaoicon1.png" alt="missao" width="58" height="58"></span>
+                        <a class="textomvv" data-bs-toggle="collapse" href="#collapseMissao" role="button"
+                            aria-expanded="false" aria-controls="collapseMissao">
+                            MISSÃO </span><i class="bi bi-arrow-down" style="font-size: 18px;"></i>
+                        </a>
+                        <div class="collapse" id="collapseMissao">
+                            <div class="col">
+                                <p class="lead py-3 lh-2"
+                                    style="color: #C2C2C2; margin-bottom: -10px;  margin-left: 80px;">Investir
+                                    estrategicamente o nosso capital e aplicar o nosso conhecimento local, permitindo
+                                    satisfazer as necessidades dos nossos clientes nacionais e internacionais no mercado
+                                    alimentar, e logística, tendo como base os seguintes Princípios: Execução
+                                    Comprovada; Compromisso de longo prazo com a organização; Alto posicionamento ético
+                                    nos negócios ; Solidez Financeira.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="container" style="padding-bottom: 20px;">
+                        <span class="imgmvv"><img src="img/visao1.png" alt="missao" width="58" height="58"></span>
+                        <a class="textomvv" data-bs-toggle="collapse" href="#collapseVisao" role="button"
+                            aria-expanded="false" aria-controls="collapseVisao">
+                            VISÃO <i class="bi bi-arrow-down" style="font-size: 18px;"></i>
+                        </a>
+                        <div class="collapse" id="collapseVisao">
+                            <div class="col">
+                                <p class="lead py-3 lh-2"
+                                    style="color: #C2C2C2; margin-bottom: -10px;  margin-left: 80px;">A nossa visão é de
+                                    ser o expoente máximo, do investimento privado em angola no sector da Gestão e
+                                    segurança Alimentar , guiado pelos nossos valores, Liderança, organização e
+                                    maximização da rentabilidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="container">
+                        <span class="imgmvv"><img src="img/valoresicon1.png" alt="missao" width="58" height="58"></span>
+                        <a class="textomvv" data-bs-toggle="collapse" href="#collapseValores" role="button"
+                            aria-expanded="false" aria-controls="collapseValores">
+                            VALORES <i class="bi bi-arrow-down" style="font-size: 18px;"></i>
+                        </a>
+                        <div class="collapse" id="collapseValores">
+                            <div class="col">
+                                <p class="lead py-3 lh-2"
+                                    style="color: #C2C2C2; margin-bottom: -10px; margin-left: 80px;">Valorizamos os
+                                    nossos clientes; Valorizamos os nossos investimentos e o crescimento lucrativo em
+                                    angola; Valorizamos a comunidade angolana nos mas diversos sectores de atividades;
+                                    Valorizamos os nossos associados proporcionando um ambiente de trabalho positivo
+                                    ;Valorizamos a confidencialidade e a privacidade; Valorizamos a integridade e
+                                    operamos com os altos padrões éticos, praticando a transparência e evitando conflito
+                                    de interesse.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim Div Sobre Nós-->
+
+
+        <!--Div numeros-->
+        <div class="divestatist">
+            <div class="container" data-aos="zoom-in">
+                <div class="row">
+                    <div class="col-md-4" style="text-align: center; padding-top: 40px; padding-bottom: 15px;">
+                        <h2 class="tituloestat">2 milhões</h2>
+                        <p class="subtituloestat">Vendas em 2021</p>
+                    </div>
+
+                    <div class="col-md-4" style="text-align: center; padding-top: 40px; padding-bottom: 15px;">
+                        <h2 class="tituloestat">Cerca de 30</h2>
+                        <p class="subtituloestat">Fornecedores em todo o mundo</p>
+                    </div>
+
+                    <div class="col-md-4" style="text-align: center; padding-top: 40px; padding-bottom: 15px;">
+                        <h2 class="tituloestat">Mais de 50</h2>
+                        <p class="subtituloestat">Parceiros em todo o País</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FIm Div numeros-->
+
+        <!--Div Serviços-->
+        <div class="divservico" style="height: 750px;">
+            <div class="container" style="text-align: center;" data-aos="zoom-in">
+                <div class="col-md-12 px-2">
+                    <h1 class="display-5 lh-1 mb-3 servico" id="nossosservicos"
+                        style="text-transform: uppercase; font-weight: 500; font-size: 40px; color: #DC9E00; margin: 0 auto; padding-bottom: 10px;">
+                        NOSSOS SERVIÇOS</h1>
+                    <p class="lead lh-2 textoservicos"><span
+                            style="font-weight: 300; color: white; text-transform: uppercase;"> Prestamos serviços
+                            nas seguintes áreas </span>: Comercio Geral; Transporte e segurança alimentar, Industria
+                        manuseo e comercialização de entrepostos, Representações Comerciais, distribuição de géneros
+                        alimentícios, Gestão de Grandes armazéns de géneros alimentícios; Importação, Exportação e
+                        outros…</p>
+
+                </div>
+
+            </div>
+
+            <!--Slide seviços-->
+            <div class="col-md-12">
+                <div class="gallery">
+                    <div class="gallery__prev"></div>
+                    <div class="gallery__next"></div>
+                    <div class="gallery__stream">
+                        <div class="gallery__item bg-1"></div>
+                        <div class="gallery__item bg-2"></div>
+                        <div class="gallery__item bg-3"></div>
+                        <div class="gallery__item bg-4"></div>
+                        <div class="gallery__item bg-5"></div>
+                        <div class="gallery__item bg-6"></div>
+                        <div class="gallery__item bg-7"></div>
+                    </div>
+                </div>
+
+                <br><br><br>
+                <br><br><br>
+                <br><br><br>
+                <br><br><br>
+                <br><br><br>
+                <br><br><br>
+            </div>
+            <!--Fim serviços-->
+        </div>
+        <!--FIm Div Serviços-->
+
+
+        <!--Div Onde Estamos-->
+        <div class="divondeestamos">
+
+            <div class="row" style="width: 100%;">
+                <div class="col-lg-12 px-5">
+                    <h1 class="display-5 lh-1 mb-3 apresentacao" id="quemsomos"
+                        style="text-transform: uppercase; font-weight: 500; font-size: 40px; color: #131313;"
+                        data-aos="fade-right">ONDE ESTAMOS</h1>
+                </div>
+                <div class="col-md-6 px-5 p-4" data-aos="fade-right">
+                    <p class="lead textosobrenos">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="#"><button type="button" class="btn btn-primarybtn-lg px-4 btnprincipal"><span
+                                    class="lead">Sobre nós </span><i class="bi bi-arrow-right"></i></button></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 centrar" data-aos="fade-up">
+                    <img src="img/mapa.png" alt="mapa" height="505" width="498">
+                </div>
+
+
+            </div>
+            <div class="imgtrigo" style="width: 100%;">
+
+            </div>
+        </div>
+        <!--Fim Onde Estamos-->
+
+
+        <!--Hero Contactos-->
+        <div class="footercontactos">
+
+
+            <div class="container  textoslide" style="padding:80px; padding-top: 80px; padding-bottom: 80px;">
+                <div class="row" style="padding-bottom: 80px;">
+                    <div class="col-md-6 col-sm-6 item-footercontacto colunaconversar">
+                        <div class="col" style="text-align: center;">
+                            <p class="display-5 lh-1 mb-3 lead"
+                                style="font-size: 30px; padding-bottom: 25px; text-transform: uppercase; font-weight: 300; text-align: center;">
+                                Vamos conversar!
+                            </p>
+
+
+                            <p class="display-5 lh-2 lead"
+                                style="font-size: 16px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px; text-transform: uppercase; font-weight: 300; text-align: center; color: #cacaca;">
+                                Deseja saber mais sobre nós? Envie-nos uma mensagem.
+                            </p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                <a href="#"><button type="button" class="btn btn-primarybtn-lg px-4 btnprincipal"><span
+                                            class="lead">Contacte-nos </span><i
+                                            class="bi bi-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 item-footercontacto">
+                        <div class="col" style="text-align: center;">
+                            <p class="display-5 lh-1 mb-3 lead"
+                                style="font-size: 30px; padding-bottom: 25px; text-transform: uppercase; font-weight: 300; text-align: center;">
+                                Junte-se a nós!
+                            </p>
+
+
+                            <p class="display-5 lh-2 lead"
+                                style="font-size: 16px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px; text-transform: uppercase; font-weight: 300; text-align: center; color: #cacaca;">
+                                Procurando uma carreira gratificante? Clique abaixo para aplicar.
+                            </p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                <a href="#"><button type="button" class="btn btn-primarybtn-lg px-4 btnprincipal"><span
+                                            class="lead">Carreira </span><i class="bi bi-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid d-md-flex justify-content-center">
+                    <a href="#navbarsExample04"><button type="button"
+                            class="btn btn-outline-secondary btn-lg px-4 btnslideup" style="padding: 20px;"><i
+                                class="bi bi-arrow-up"></i></button></a>
+                </div>
+            </div>
+
+        </div>
+        <!--Fim Hero Contactos-->
+
+
+        <!--footer-->
+
+        <div class="container" style="height: 10px;">
+            <footer class="d-flex flex-wrap align-items-center py-3 my-4">
+                <div
+                    class="container d-flex flex-wrap justify-content-between align-items-center border-bottom pb-3 mb-3">
+                    <div class="col-md-4 align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <img src="img/logoyellowsmall.png" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre nós</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Serviços</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Produtos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Carreira</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contactos</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-12 justify-content-center justify-content-sm-center" style="margin: 0 auto;">
+                    <p class="text-center text-muted">&copy; 2022 GESCESTA</p>
+                </div>
+            </footer>
+        </div>
+        <!--fim footer-->
+
+
+
+
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/myslider.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            duration: 1000,
+            easing: 'ease',
+
+
+
+        }
+
+        );
+
+
+
+    </script>
+
+</body>
+
+</html>
